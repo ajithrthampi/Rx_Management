@@ -1,7 +1,16 @@
 import React from 'react'
 import "./login.css"
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+    const navigate = useNavigate();
+
+    const handleLogin = () => {
+    navigate("/table")
+    }
+
+
+
     return (
 
         <div className="min-h-screen flex items-center justify-center  bg-[#1c4b69] relative overflow-hidden">
@@ -31,8 +40,8 @@ const Login = () => {
                             <p className='text-white text-xs fontCalibri_italics font-medium'>Forgot User ID/Passcode</p>
                         </div>
                         <div className='flex justify-end items-center pt-7  mb-12 px-5 '>
-                            <button type="submit"
-                                className=" input   w-36 bg-white   py-1 rounded-3xl ring- focus:ring-offset- focus:outline-none  mt-4 mb-4 fontCalibri font-bold text-black text-sm">Login</button>
+                            <button 
+                                className=" input   w-36 bg-white   py-1 rounded-3xl ring- focus:ring-offset- focus:outline-none  mt-4 mb-4 fontCalibri font-bold text-black text-sm" onClick={handleLogin}>Login</button>
                         </div>
                     </form>
                 </div>

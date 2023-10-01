@@ -48,14 +48,13 @@ const Login = () => {
             </div>
 
 
-
             <div className='hidden lg:block  w-[800px] z-10 h-[800px] bg-[#206688] rounded-[190px] absolute -left-[410px] transform rotate-45 overflow-hidden'></div>
-            <div className='hidden md:block  w-[550px] h-[550px] bg-[#2b6b8e] rounded-[150px] z-20 absolute -left-[350px] bottom-0 shadow-lg rotate-45'></div>
-            <div className='hidden sm:block w-[400px] h-[400px] rounded-[150px] bg-[#2b749b] z-20 absolute -left-[310px] bottom-0 shadow-lg rotate-45'></div>
+            <div className='hidden md:block  w-[550px] h-[550px] bg-[#2b6b8e] rounded-[150px] z-20 absolute -left-[350px] bottom-0  rotate-45'></div>
+            <div className='hidden sm:block w-[400px] h-[400px] rounded-[150px] bg-[#2b749b] z-20 absolute -left-[310px] bottom-0  rotate-45'></div>
             
             <div className='hidden lg:block  md w-[800px] z-10 h-[800px] bg-[#206688] rounded-[190px] absolute -right-[410px] transform rotate-45 overflow-hidden'></div>
-            <div className=' hidden md:block w-[550px] h-[550px] bg-[#2b6b8e] rounded-[150px] z-20 absolute -right-[350px] bottom-0 shadow-lg rotate-45'></div>
-            <div className='hidden sm:block  w-[400px] h-[400px] rounded-[150px] bg-[#2b749b] z-20 absolute -right-[310px] bottom-0 rotate-45 shadow-lg'></div>
+            <div className=' hidden md:block w-[550px] h-[550px] bg-[#2b6b8e] rounded-[150px] z-20 absolute -right-[350px] bottom-0 rotate-45'></div>
+            <div className='hidden sm:block  w-[400px] h-[400px] rounded-[150px] bg-[#2b749b] z-20 absolute -right-[310px] bottom-0 rotate-45   '></div>
         </div>
 
 

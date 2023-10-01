@@ -20,10 +20,6 @@ const MobileNav = () => {
         visible: {
             opacity: 1,
             x: 0,
-            transition: {
-                // type: 'spring',
-                // delay: 0.5
-            }
         }
     }
 
@@ -62,27 +58,23 @@ const MobileNav = () => {
             >
                 <PiArrowUUpLeftBold className='text-2xl text-white' />
             </div>
-
             <div className=' p-3 pt-5'>
                 <div className='fle gap-10 items-center'>
                     <div className='flex items-center gap-4'>
                         <p className='fontCalibri text-[13px] font-semibold text-white'>NEXT SCIENCE</p>
                     </div>
-
                     <div className='flex items-center gap-2'>
                         <div className='rounded-full w-[26px] h-[26px] bg-white flex justify-center items-center  '>
                             <BiSolidUser className='text-[#256a8b] text-xl' />
                         </div>
                         <p className='fontCalibri text-[18px] font-semibold  underline text-black'>Erica Fernandes</p>
                     </div>
-
                     <div className='flex gap-2 items-center pt-8'>
                         <p className='fontCalibri  text-[13px] font-semibold text-black'>OCR Status:</p>
                         <input
                             type="text"
                             className='rounded-2xl py-1 px-3 placeholder:text-xs bg-[#c7dde8]' />
                     </div>
-
                     <div className='pt-5'>
                         <div className='flex flex-col  gap-7 '>
                             <div className='flex items-center gap-1'>
@@ -96,19 +88,16 @@ const MobileNav = () => {
                                 </div>
                                 <p className='fontCalibri  text-[14px] font-semibold text-black'>Rx Tracker List</p>
                             </div>
-
                             <div className='flex items-center gap-1'>
                                 <HiOutlineNewspaper className='text-black text-xl' />
                                 <p className='fontCalibri  text-[14px] font-semibold text-black'>Case Details</p>
                             </div>
-
                             <div className='flex items-center gap-1'>
                                 <RiLogoutBoxRFill className='text-black text-xl' />
                                 <p className='fontCalibri  text-[14px] font-semibold text-black'>Logout</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </motion.div>

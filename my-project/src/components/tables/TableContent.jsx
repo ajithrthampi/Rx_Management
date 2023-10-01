@@ -459,9 +459,6 @@ const   TableContent = () => {
                                 $2999
                             </td>
                         </tr>
-
-                        
-                        
                     </tbody>
                 </table>
             </div>

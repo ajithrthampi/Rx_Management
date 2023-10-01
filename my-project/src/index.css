@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+
+@font-face {
+  font-family: "Calibri";
+  src: local("Calibri"),
+   url("./assets/fonts/CalibriBold.TTF") format("truetype");
+  /* font-weight: bold; */
+ }
+
+ @font-face {
+  font-family: "Calibri_light";
+  src: local("Calibri"),
+   url("./assets/fonts/CalibriLight.ttf") format("truetype");
+  /* font-weight: bold; */
+ }
+
+ @font-face {
+  font-family: "Calibri_italics";
+  src: local("Calibri"),
+   url("./assets/fonts/CalibriLightItalic.ttf") format("truetype");
+  /* font-weight: bold; */
+ }
+
+ .fontCalibri{
+  font-family: "Calibri";
+}
+
+
+.fontCalibri_light{
+  font-family: "Calibri_light";
+}
+
+.fontCalibri_italics{
+  font-family: "Calibri_italics";
+}
+
+
+
